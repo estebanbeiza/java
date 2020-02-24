@@ -61,10 +61,8 @@ public class Lavadora extends Electrodomestico{
 	public int precioFinal () {
 		int precioFinal = super.actualizaPrecio();
 		if (getCarga() > 30) {
-			//System.out.println("Precio Final: " + super.getPrecioBase() + 50);
 			precioFinal += super.getPrecioBase() + 50;
 		} else {
-			//System.out.println("Precio Final: " + super.getPrecioBase());
 			precioFinal += super.getPrecioBase();
 		}
 		return precioFinal;
