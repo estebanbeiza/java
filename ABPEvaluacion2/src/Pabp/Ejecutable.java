@@ -26,28 +26,42 @@ public class Ejecutable {
 		
 		//instanciamos objetos de Electrodomestico y los agregamos al Array
 		for (int i = 0; i < 10; i++) {
-			if (i < 2) {
+			//Uso del constructor por defecto
+			if (i < 1) {
 				Lavadora lav1 = new Lavadora();
 				articulos.add(lav1);
-			} else if (i < 4) {
+			} else if (i < 2) {
 				Television tv1 = new Television();
 				articulos.add(tv1);
-			} else if (i < 6) {
-				Lavadora lav1 = new Lavadora(130000, 10 + i);
+			} 
+			//uso de constructor ingresando precio y peso soalmente
+			  else if (i < 3) {
+				Lavadora lav1 = new Lavadora(150000, 30);
 				articulos.add(lav1);
+			} else if (i < 4) {
+				Television tv1 = new Television(150000, 29);
+				articulos.add(tv1);
+			} 
+			//uso del constructor ingresando todos los parametros
+			  else if (i < 5) {
+				Lavadora  lav1 = new Lavadora(200000, "AZUL", 'E', 31, 35);
+				articulos.add(lav1);
+			} else if (i < 6) {
+				Television tv1 = new Television(200000, "gris", 'B', 15, 29, false);
+				articulos.add(tv1);
 			} else if (i < 7) {
-				Lavadora lav1 = new Lavadora(130000, 10 + i);
+				Lavadora lav1 = new Lavadora(200000, "naranjo", 'A', 35, 35);
 				articulos.add(lav1);
 			} else if (i < 8) {	
-				Television tv1 = new Television(200000, "GrIs", 'A', 19 + i, 25, false);
+				Television tv1 = new Television(200000, "GrIs", 'C', 50, 29, true);
 				articulos.add(tv1);
 			} else if (i < 9) {
-				Electrodomestico tv2 = new Television(200000, "NeGRO", 'E', 20, 40, true);
-				articulos.add(tv2);
+				Electrodomestico tv1 = new Television(200000, "NeGRO", 'D', 20, 40, true);
+				articulos.add(tv1);
 			} 
 			else {
-				Electrodomestico tv2 = new Television(200000, "morado", 'E', 20, 41, true);
-				articulos.add(tv2);
+				Electrodomestico tv1 = new Television(200000, "morado", 'X', 80, 41, true);
+				articulos.add(tv1);
 			}
 		}
 		
