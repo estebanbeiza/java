@@ -3,9 +3,9 @@ package Pabp;
  * 
  * Esta clase contiene los atributos y métodos pertenecientes a la clase Electrodomestico
  * Y será usada como Clase Padre
- * @author: Esteban Beiza
- * @version: 24/02/2020
- * @see <a href="https://github.com/escribir direccion del github contenedor">Versión en Github</a>
+ * @author Esteban Beiza
+ * @version 24/02/2020
+ * @see <a href="https://github.com/estebanbeiza/java/tree/master/ABPEvaluacion2">Versión en Github</a>
  *
  */
 

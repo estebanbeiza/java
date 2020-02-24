@@ -6,14 +6,15 @@ import java.util.ArrayList;
  * Esta es la clase que realiza las acciones agrega a un array objetos de electrodomesticos
  * luego se recorre el array se usa el metodo precioFinal de cada clase
  * para obtener el precio actualizado de cada articulo 
- * @author: Esteban Beiza
- * @version: 19/02/2020
- * @see <a href="https://github.com/escribir direccion del github contenedor">Versión en Github</a>
+ * @author Esteban Beiza
+ * @version 19/02/2020
+ * @see <a href="https://github.com/estebanbeiza/java/tree/master/ABPEvaluacion2">Versión en Github</a>
  */
 public class Ejecutable {
 
 	/**
 	 * Metodo main de la clase
+	 * @param args sin uso aun
 	 */
 	public static void main(String[] args) {
 		//Array de la clase Electrodomesticos que guardara los artiuclos

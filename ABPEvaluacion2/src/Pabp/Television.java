@@ -3,9 +3,9 @@ package Pabp;
 /**
  * Clase Television contiene los atributos y metodos de la clase Television
  * herada de la clase Electrodomestico
- * @autor: Esteban Beiza
- * @version: 24/02/2020
- * @see <a href="https://github.com/escribir direccion del github contenedor">Versión en Github</a>
+ * @author Esteban Beiza
+ * @version 24/02/2020
+ * @see <a href="https://github.com/estebanbeiza/java/tree/master/ABPEvaluacion2">Versión en Github</a>
  */
 public class Television extends Electrodomestico {
 	//Atributos de la clase
