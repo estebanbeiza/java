@@ -5,7 +5,7 @@ package Pabp;
  * herada de la clase Electrodomestico
  * @author Esteban Beiza
  * @version 24/02/2020
- * @see <a href="https://github.com/estebanbeiza/java/tree/master/ABPEvaluacion2">Versión en Github</a>
+ * @see <a href="https://github.com/estebanbeiza/java">Versión en Github</a>
  */
 public class Lavadora extends Electrodomestico{
 	//Atributos de la clase
