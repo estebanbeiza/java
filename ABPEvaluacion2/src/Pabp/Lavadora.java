@@ -67,7 +67,5 @@ public class Lavadora extends Electrodomestico{
 		}
 		return precioFinal;
 	}
-	
-	
-	
+		
 }
