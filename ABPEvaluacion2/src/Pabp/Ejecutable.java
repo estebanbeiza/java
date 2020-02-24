@@ -86,6 +86,7 @@ public class Ejecutable {
 		 * Mostramos la suma del precio de cada electrodomestico
 		 * y la suma del precio de todos los electrodomesticos
 		 */
+		
 		System.out.println("\n\nPrecio total de Televisores      : " + sumTv);
 		System.out.println("Precio total de lavadoras        : " + sumLav);
 		System.out.println("Precio total de Electrodomesticos: " + sumElec);
