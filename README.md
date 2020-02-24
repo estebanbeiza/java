@@ -7,4 +7,4 @@ La clase ejecutable crea 10 objetos usando los tres constructores, cada objeto i
 luego se recorre el arreglo y por cada objeto se ejecuta el metodo precioFinal().
 Como salida se obtienen los datos de cada objeto y ademas se muestra su precio base y luego su precio final.
 
-Para probar con otros parametros se deben modificar parametros donde se instancian los objetos
+Para probar con otros datos se deben modificar parametros donde se instancian los objetos en la clase ejecutable
