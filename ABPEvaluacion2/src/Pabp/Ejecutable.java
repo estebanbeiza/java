@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * para obtener el precio actualizado de cada articulo 
  * @author Esteban Beiza
  * @version 19/02/2020
- * @see <a href="https://github.com/estebanbeiza/java/tree/master/ABPEvaluacion2">Versión en Github</a>
+ * @see <a href="https://github.com/estebanbeiza/java">Versión en Github</a>
  */
 public class Ejecutable {
 
